@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: 0.5s;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("space.jpeg");
+  background-size: cover;
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container header {
+  color: aquamarine;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Pumpkin";
+}
+
+.container hr {
+  margin: 20px;
+  height: 5px;
+  width: 50%;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.container div {
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 15px 30px;
+  border-radius: 25px;
+  background: #b1dd0f;
+  cursor: pointer;
+}
+
+.container div:hover {
+  padding: 25px 40px;
+  font-size: xx-large;
+}
+
+@font-face {
+  font-family: "Pumpkin";
+  src: url("Pumpkin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
