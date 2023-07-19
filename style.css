@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("space.jpeg");
+  background-image: url("./imgs/space.jpeg");
   background-size: cover;
 }
 
@@ -54,7 +54,7 @@ body {
 
 @font-face {
   font-family: "Pumpkin";
-  src: url("Pumpkin.otf") format("opentype");
+  src: url("./fonts/Pumpkin.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
